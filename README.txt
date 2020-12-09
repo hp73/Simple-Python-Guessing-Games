@@ -1,7 +1,7 @@
 Project 3 - Python Guessing Games
 CSCI 101 Fall 2019
 By Harry Pinkerton
-Required to run: 
+Required to run: python 3.7
 
 Run one of the files to play each respective game
 
