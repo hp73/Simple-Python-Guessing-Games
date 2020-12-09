@@ -8,17 +8,18 @@ Run one of the files to play each respective game
 =======================
 MyGuess.py
 =======================
-This program plays a guessing game with the user - where the computer generates a
-number between 1 and 100 for the user to guess within 7 attempts
-(This is due to binary search). When the user correctly guesses the number,
-the program displays the correct guess. However, if the user exceeds
-7 attempts the program will quit.
+This program plays a guessing game with the user.  The program
+displays a greeting and thinks of a number between 1 and 100.
+The user inputs guesses until a guess equals the number. If user's
+guess is too large or too small, the computer replies with a hint
+to that effect.  When the user guess the number, the program displays
+the total number of guesses. 
 
 
 =======================
 YourGuess.py
 =======================
-The user thinks of a number between 1 and 100, the computer displays the guesses,
-and the user respond with the clues. The computer should be able to guess the
-correct number in no more than 7 attempts. If the user cheats,
-the computer quits with an error message.
+This program plays a guessing game with the computer. The program guesses until
+it gets the user's number correct using hints from the user whether or not the
+computer's guess is too large or too small. When the computer guesses the number
+the program displays the total number of guesses.  
